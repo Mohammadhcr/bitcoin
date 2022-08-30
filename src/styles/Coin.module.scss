@@ -1,0 +1,55 @@
+.coin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  color: #f5f5f5;
+  border-bottom: 1px solid #252525;
+  min-height: 4rem;
+  background: #101010;
+
+  &:last-child{
+    border: none;
+  }
+
+  &:hover{
+    background: #171717;
+  }
+
+  .coinLogo{
+    width: 34px;
+    margin-left: 1.5rem;
+  }
+
+  .coinName{
+    width: 100px;
+    font-size: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .coinSymbol{
+    text-align: center;
+    width: 90px;
+    color: #f5f5f5;
+  }
+  
+  .coinCurrentPrice{
+    text-align: center;
+    width: 90px;
+  }
+  
+  .greenPriceChange, .redPriceChange{
+    width: 90px;
+    text-align: center;
+  }
+  
+  .redPriceChange{
+    color: rgb(255, 68, 68);
+  }
+  
+  .greenPriceChange{
+    color: rgb(68, 255, 68);
+  }
+}
